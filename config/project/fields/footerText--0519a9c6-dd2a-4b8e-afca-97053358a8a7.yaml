@@ -1,0 +1,19 @@
+columnSuffix: yoxgseoh
+contentColumnType: text
+fieldGroup: cd95e348-5a1f-4620-a695-6fbfbb01bc86 # Site Settings
+handle: footerText
+instructions: null
+name: 'Footer Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

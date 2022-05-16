@@ -1,0 +1,57 @@
+dateModified: 1652669255
+email:
+  fromEmail: jvargas@conversionia.com
+  fromName: craftcms_test.com
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: local
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images'
+meta:
+  __names__:
+    02a7470e-3b8f-4fdd-8efc-4cc3d118bc3e: Logo # Logo
+    2b9ffc15-026d-4d89-956e-4e9dcd6306bf: Blog # Blog
+    2b794e9e-4f2e-481f-918e-78906088a7c6: Home # Home
+    4e03db68-5e3f-4bf8-819e-a5b60401d697: 'Public Schema' # Public Schema
+    6b7d0378-db61-4649-b32e-a27ecb158986: 'Feature Image' # Feature Image
+    7afc6286-ebf5-4d5d-8291-8926ee6d134e: Default # Default
+    9b4059d2-408d-4dbb-a185-44b18fef8713: Text # Text
+    55d5b6d6-3047-4968-bb1d-d8b31ba06531: craftcms_test.com # craftcms_test.com
+    69bde3b8-f6e5-4222-bab8-3ea6b61813f4: Excerpt # Excerpt
+    0519a9c6-dd2a-4b8e-afca-97053358a8a7: 'Footer Text' # Footer Text
+    4565f56d-6b28-4561-835c-e0d85a2bf0b8: 'Post Content' # Post Content
+    7907913f-5c32-49b3-973d-c4fae76d77a9: blog # blog
+    a0e60c90-00c4-4b64-8366-e58407f245b9: Image # Image
+    aeb7dc98-e1a1-475b-a845-5a2938289033: craftcms_test.com # craftcms_test.com
+    b2e2ffa0-5642-476f-aec5-e8bcbcc6ea97: Common # Common
+    bec7a733-0a59-4dca-95a8-f0a377c32300: Home # Home
+    c067f3fe-88e5-4cee-b1da-e018351cc189: Image # Image
+    cd95e348-5a1f-4620-a695-6fbfbb01bc86: 'Site Settings' # Site Settings
+    d4ac699b-06ca-4ef6-b9d0-7e8fd6b67754: Text # Text
+    ee023d65-5e01-49fa-8fcc-f7f40588bd82: 'Site Settings' # Site Settings
+    f0a396c8-7f69-4346-a638-3174ea63f290: Images # Images
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: craftcms_test.com
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

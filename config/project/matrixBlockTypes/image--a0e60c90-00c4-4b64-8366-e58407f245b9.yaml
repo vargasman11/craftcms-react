@@ -1,0 +1,69 @@
+field: 4565f56d-6b28-4561-835c-e0d85a2bf0b8 # Post Content
+fieldLayouts:
+  96f7190f-2b7e-4b0f-bd97-57a5d191889e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c067f3fe-88e5-4cee-b1da-e018351cc189 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d2863e3-dad4-40aa-8fde-890e0430d13b
+            warning: null
+            width: 100
+        name: Content
+        uid: 5198649c-cb51-4c16-a5dc-a6be7473289d
+fields:
+  c067f3fe-88e5-4cee-b1da-e018351cc189: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:f0a396c8-7f69-4346-a638-3174ea63f290' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:f0a396c8-7f69-4346-a638-3174ea63f290' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

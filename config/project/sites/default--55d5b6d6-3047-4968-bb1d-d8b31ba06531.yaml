@@ -1,0 +1,9 @@
+baseUrl: null
+enabled: true
+handle: default
+hasUrls: false
+language: en-US
+name: craftcms_test.com
+primary: true
+siteGroup: aeb7dc98-e1a1-475b-a845-5a2938289033 # craftcms_test.com
+sortOrder: 1

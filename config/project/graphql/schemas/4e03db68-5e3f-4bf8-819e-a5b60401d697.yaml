@@ -1,0 +1,8 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.55d5b6d6-3047-4968-bb1d-d8b31ba06531:read' # craftcms_test.com
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'usergroups.everyone:read'

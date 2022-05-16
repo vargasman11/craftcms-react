@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  55d5b6d6-3047-4968-bb1d-d8b31ba06531: # craftcms_test.com
+    enabledByDefault: true
+    hasUrls: true
+    template: Index
+    uriFormat: __home__
+type: single

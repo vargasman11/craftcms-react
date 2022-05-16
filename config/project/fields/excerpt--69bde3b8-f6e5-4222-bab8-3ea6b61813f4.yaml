@@ -1,0 +1,19 @@
+columnSuffix: cjqfztal
+contentColumnType: string(400)
+fieldGroup: 2b9ffc15-026d-4d89-956e-4e9dcd6306bf # Blog
+handle: excerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 100
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
